@@ -5,58 +5,372 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halvardo13</title>
 
-  <script type="module" crossorigin src="/myportfolio/assets/index-CqCwFF_P.js"></script>
-  <link rel="stylesheet" crossorigin href="/myportfolio/assets/index-CGTV6ah_.css">
+  <script type="module" crossorigin src="/myportfolio/assets/index-8-xfpXDL.js"></script>
+  <link rel="stylesheet" crossorigin href="/myportfolio/assets/index-BwynzOR3.css">
 </head>
-<body>
+<body id="idbody">
     <!--games-->
     <div id="idGames" class="toggleableSection HTMLcontent">
         <div class="baseBackground">
 
-            <h1>My Games!</h1>
-            <div class="scollable">
+            <div class="content">
+                <header>
+                    <button class="returnButton">&lt; Return to Menu</button>
+                    
+                    <h1>Game Development</h1>
 
+                    <a href="mailto:halvardmje@gmail.com" style="background-color: black; color: white;">Contact</a>
+                </header>
+
+                <div class="sidebarAndMain">
+                    
+                    <div class="sidebar">
+
+                        <p class="pageDesc">Games I have fully developed and released commercially.</p>
+
+                        <button id="nav_nsl" onclick="toggleGameLists('nosweetlooks', '')">No sweet looks</button>
+                        <button id="nav_ginnung" class="sidebarButton" onclick="toggleGameLists('ginnung', '')">Ginnung</button>
+                        <button id="nav_fusionshift" class="sidebarButton" onclick="toggleGameLists('fusionshift', '')">Fusion SHIFT</button>
+                        <p class="pageDesc">My other game development projects that are smaller in scale. </p>
+                        <button id="nav_otherGames" class="sidebarButton" onclick="toggleGameLists('otherGames', '')">Game Jams</button>
+                        <br>
+                        
+
+                    </div>
+                    <!--no sweet looks-->
+                    <div class="main" id="nosweetlooks">
+                        <img src="/myportfolio/assets/nosw-DlF6wpV5.jpg" alt="">
+                        <div class="textDesc">
+
+                            <p style="color: rgb(80, 80, 80);">Made with GameMaker | Released 2025</p>
+                            <h3>No Sweet Looks</h3>
+                            <p>Nothing but ocean in every direction, and monsters eyeing you down everywhere you go!</p>
+                            <p style="color: rgb(80, 80, 80);">Avalible on:</p>
+                            <div class="gameLinks">
+                                <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/No-Sweet-Looks-2894359.html" target="_blank">Nintendo Switch</a>
+                                <a href="https://store.steampowered.com/app/3863460/No_Sweet_Looks/" target="_blank">Steam</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+                    <!--Ginnung-->
+                    <div class="toggleableSection" id="ginnung">
+                        <img src="/myportfolio/assets/Ginnung-Bvm3lCF1.jpeg" alt="">
+                        <div class="textDesc">
+
+                            <p style="color: rgb(80, 80, 80);">Made with GameMaker | Released 2022</p>
+                            <h3>Ginnung</h3>
+                            <p>Find your escape in this tight platformer with emphasis on speedrunning. Use the simple but versatile movement to the best of your ability! </p>
+                            <p style="color: rgb(80, 80, 80);">Avalible on:</p>
+                            <div class="gameLinks">
+                                <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Ginnung-2327674.html" target="_blank">Nintendo Switch</a>
+                                <a href="https://store.steampowered.com/app/2125270/Ginnung/" target="_blank">Steam</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+                    <!--Fusion shift-->
+                    <div class="toggleableSection" id="fusionshift">
+                        <img src="/myportfolio/assets/fusion_shift-COF1nrzw.png" alt="">
+                        <div class="textDesc">
+
+                            <p style="color: rgb(80, 80, 80);">Made with GameMaker | Released 2020</p>
+                            <h3>Fusion SHIFT</h3>
+                            <p>Controll the minds of your foes and use their skills to your advantage!</p>
+                            <p style="color: rgb(80, 80, 80);">Avalible on:</p>
+                            <div class="gameLinks">
+                                <a href="https://store.steampowered.com/app/1254070/Fusion_SHIFT/" target="_blank">Nintendo Switch</a>
+                                <a href="https://www.nintendo.com/us/store/products/fusion-shift-switch/" target="_blank">Steam</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End-->
+                    <!--Other games-->
+                    <div class="toggleableSection" id="otherGames">
+                        <div class="scollableSection">
+
+                            <div class="largeList">
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/standoff-CRaqVLJU.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | Vidja Jam 2025</p>
+                                    <h3>Standoff</h3>
+                                    <p>Attacks will repeat for multiple turns after placing them.  Dodge them and lure enemies to their death!</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/standoff" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/submergeg-BrzP92N0.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | Global Gam Jam 2025</p>
+                                    <h3>Submerged</h3>
+                                    <p>Dive deep in the ocean, and collect bubbles to survive.</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/submerged" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/seismic-B-WYevAj.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | Bakom Jam 2024</p>
+                                    <h3>Seismic Activity</h3>
+                                    <p>Major earthquakes are incoming! Fight the forces of Earths Core!</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/seismic-activity" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/cursedlands-DBd7aUVn.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | Bakom Jam 2023</p>
+                                    <h3>Cursed Lands</h3>
+                                    <p>As the invaders curse your lands, you will need to use your cities and units effectively to defend your Civilization. The invaders will outnumber you so prepare well. </p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/cursedlands" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/blazingassasin-Czv8iZwe.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | Bakom Jam 2022</p>
+                                    <h3>Blazing Assasin</h3>
+                                    <p>Sneak quietly to get close to your target and pull the trigger. Once the alarm goes of, shoot your way back to the car and find the next target! Be careful not to make noise, if you get caught sneaking around the target will make a run for it.</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/blazing-assassin" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="data:image/png;base64,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" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | IndieTales Jam</p>
+                                    <h3>JailRoom</h3>
+                                    <p>Welcome to the world's smallest jail house! You are the only guard on duty. Keep the peace by stopping prison fights and throwing them in jail. But be careful not to hold prisoners too long or let to many fights slide, your job is on the line!</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/jailroom" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/ropeho-CTQwyKi0.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | GMTK 2021</p>
+                                    <h3>RopeHo</h3>
+                                    <p>Use your rope gun to swing around the environment.</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/rope-ho" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/bounceball-BXntCRnk.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | GameBoy Jam</p>
+                                    <h3>BounceBall</h3>
+                                    <p>Simple score game about dodgeing balls</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/bounceball-gbjam" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/recoil-gBGKngWp.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Made in 48hrs | GMTK 18</p>
+                                    <h3>Recoil</h3>
+                                    <p>You cannot use your legs. Take advantage of the recoil from your shotgun to move and jump.</p>
+                                    <div class="gameLinks">
+                                        <a href="https://halvardo13.itch.io/recoil" target="_blank">Check it out</a>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>  
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                <!--End-->
 
 
 
             </div>
+
         </div>
         
-        
-
+        <!--end of games page-->
     </div>
 
 
     <!--projects-->
     <div id="idProjects" class="toggleableSection HTMLcontent">
         <div class="baseBackground">
+            <div class="content">
 
-            <h1>Opps! work in proress...</h1>
-            <div class="scollable">
+
+                <header>
+                    <button class="returnButton">&lt; Return to Menu</button>
+ 
+                    <h1>My Projects</h1>
+
+                    <a href="mailto:halvardmje@gmail.com" style="background-color: black; color: white;">Contact</a>
+                </header>
+
                 
-            </div>
-        </div>
-        
-        
 
+                <div class="sidebarAndMain">
+                    <div class="sidebar">
+                        <h2>Projects</h2>
+                        <p class="pageDesc">This Page is Work in Progress! Wokring on adding my projects in...</p>
+                        <button id="nav_pro1" onclick="toggleGameLists('', 'project1')">Project Category</button>
+                        <button id="nav_pro2" class="sidebarButton" onclick="toggleGameLists('', 'project2')">School Projects</button>
+                    </div>
+
+
+                    <div class="main" id="project1">
+                        <div class="scollableSection">
+                            <div class="largeList">
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/wipimage-Gvvi8bkO.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Working on adding my projects!</p>
+                                    <h3>Work in progress!</h3>
+                                    <p>Project description</p>
+                                    <div class="gameLinks">
+                                        <a href="" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                <!---->
+                                <div class="largeListItem">
+                                    <img src="/myportfolio/assets/wipimage-Gvvi8bkO.png" alt="" class="smallImg">
+                                    <p style="color: rgb(80, 80, 80);">Working on adding my projects!</p>
+                                    <h3>Work in progress!</h3>
+                                    <p>Project description</p>
+                                    <div class="gameLinks">
+                                        <a href="" target="_blank">Check it out</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="toggleableSection" id="project2">
+                        <div class="largeList">
+                            <!---->
+                            <div class="largeListItem">
+                                <img src="/myportfolio/assets/wipimage-Gvvi8bkO.png" alt="" class="smallImg">
+                                <p style="color: rgb(80, 80, 80);">Working on adding my projects!</p>
+                                <h3>Work in progress!</h3>
+                                <p>Project description</p>
+                                <div class="gameLinks">
+                                    <a href="" target="_blank">Check it out</a>
+                                </div>
+                            </div>
+                            <!---->
+                            <div class="largeListItem">
+                                <img src="/myportfolio/assets/wipimage-Gvvi8bkO.png" alt="" class="smallImg">
+                                <p style="color: rgb(80, 80, 80);">Working on adding my projects!</p>
+                                <h3>Work in progress!</h3>
+                                <p>Project description</p>
+                                <div class="gameLinks">
+                                    <a href="" target="_blank">Check it out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
     </div>
 
     <!--About me-->
     <div id="idABoutMe" class="toggleableSection HTMLcontent">
         <div class="baseBackground">
 
-            <h1>About ME!</h1>
-            <div class="scollable">
-                <h2>Mini header</h2>
-                <p>Pellentesque et turpis id felis faucibus accumsan quis molestie odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed pharetra risus id arcu rutrum, vel convallis lorem eleifend. Sed condimentum facilisis ligula eu pretium. Phasellus quis lacus scelerisque, condimentum tellus pellentesque, fermentum lorem. Quisque elementum est at massa hendrerit luctus. Curabitur ultrices, enim vitae tempus sagittis, augue felis egestas eros, a rhoncus magna ante quis tortor. Maecenas dictum justo eu felis rhoncus, fringilla vestibulum quam tincidunt. Maecenas tincidunt aliquet quam, vitae semper sapien rhoncus ac. Nam dictum ut leo a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat at dui nec dapibus. Mauris dui eros, rhoncus quis posuere qui</p>
-            
-                <h2>Mini header</h2>
-                <p>Pellentesque et turpis id felis faucibus accumsan quis molestie odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed pharetra risus id arcu rutrum, vel convallis lorem eleifend. Sed condimentum facilisis ligula eu pretium. Phasellus quis lacus scelerisque, condimentum tellus pellentesque, fermentum lorem. Quisque elementum est at massa hendrerit luctus. Curabitur ultrices, enim vitae tempus sagittis, augue felis egestas eros, a rhoncus magna ante quis tortor. Maecenas dictum justo eu felis rhoncus, fringilla vestibulum quam tincidunt. Maecenas tincidunt aliquet quam, vitae semper sapien rhoncus ac. Nam dictum ut leo a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat at dui nec dapibus. Mauris dui eros, rhoncus quis posuere qui</p>
-            
-            </div>
-        </div>
-        
+            <div class="content">
 
+                <header>
+                    <button class="returnButton">&lt; Return to Menu</button>
+                    
+                    <h1>About Me</h1>
+
+                    <a href="mailto:halvardmje@gmail.com" style="background-color: black; color: white;">Contact</a>
+                </header>
+
+
+
+                <div class="sidebarAndMain">
+
+                    <div class="sidebar">
+                        <div class="scollableSection" style="width: fit-content;">
+                            <h2>Halvard Mjelde</h2>
+                            <p class="pageDesc2">Email: <a href="mailto:halvardmje@gmail.com">halvardmje@gmail.com</a></p>
+                            
+
+                            <h3 style="padding-top: 32px;">Master: MIX</h2>
+                            <p class="pageDesc2">Currently studying <a href="https://www4.uib.no/en/studies/programmes/media-and-interaction-design-masters" target=_blank>Media and interaction</a> master at UiB</p>
+                            
+
+                            <h3 style="padding-top: 32px;">Bachelor: Digital culture</h2>
+                            <p class="pageDesc2">Bachelor in <a href="https://www4.uib.no/program/digital-kultur-bachelor" target=_blank>Digital Culture</a> at UiB</p>
+                            <h2 style="padding-top: 32px;">Skills:</h2>
+                            <h3>Scripting</h3>
+                            <p class="pageDesc2">-HTML, CSS</p>
+                            <p class="pageDesc2">-JavaScript</p>
+                            <p class="pageDesc2">-Python</p>
+                            <p class="pageDesc2">-C#</p>
+                            
+                            <h3>Programs / Frameworks</h3>
+                
+                            <p class="pageDesc2">-GameMaker</p>
+                            <p class="pageDesc2">-Unity</p>
+                            <p class="pageDesc2">-Figma</p>
+                            <p class="pageDesc2">-three.js</p>
+
+                            <br>
+                            <br>
+                            <br>
+
+                            
+                            
+
+  
+                        </div>
+                    </div>
+
+                    <div class="main">
+                        <div class="scollableSection">
+                            <h2>Where I started</h2>
+                            <p>My interest in programming and design sparked from playing video games. I wanted to understand how games are made and how to create my own!  Making my first game made me passionate about using the computer for creative means!</p>
+                        
+                            <h2 style="margin-top: 32px;">Main interests </h2>
+                            <p>I am most interested in learning to make good UI and UX, building unique websites, using interaction creatively and ofcourse making more video games!</p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+
+            
+            
+        </div>
 
     </div>
 
@@ -69,9 +383,99 @@
 
     
 
+
+    <script>
 
 
-    <!--Import script-->
+        function cleanupButtonsGames(lastPressedgames, namegame) {
+            //Enable last press button
+            if (lastPressedgames == "nosweetlooks") {
+                document.getElementById("nav_nsl").classList.toggle("sidebarButton");
+            }
+            if (lastPressedgames == "ginnung") {
+                document.getElementById("nav_ginnung").classList.toggle("sidebarButton");
+            }
+            if (lastPressedgames == "fusionshift") {
+                document.getElementById("nav_fusionshift").classList.toggle("sidebarButton");
+            }
+            if (lastPressedgames == "otherGames") {
+                document.getElementById("nav_otherGames").classList.toggle("sidebarButton");
+            }
+
+            //Disable new pressed button
+            if (namegame == "nosweetlooks") {
+                document.getElementById("nav_nsl").classList.toggle("sidebarButton");
+            }
+            if (namegame == "ginnung") {
+                document.getElementById("nav_ginnung").classList.toggle("sidebarButton");
+            }
+            if (namegame == "fusionshift") {
+                document.getElementById("nav_fusionshift").classList.toggle("sidebarButton");
+            }
+            if (namegame == "otherGames") {
+                document.getElementById("nav_otherGames").classList.toggle("sidebarButton");
+            }
+        }
+
+        function cleanupButtonsProject(lastPressedprojects, nameproject) {
+            //Enable last press button
+            if (lastPressedprojects == "project1") {
+                document.getElementById("nav_pro1").classList.toggle("sidebarButton");
+            }
+            if (lastPressedprojects == "project2") {
+                document.getElementById("nav_pro2").classList.toggle("sidebarButton");
+            }
+
+
+            //Disable new pressed button
+            if (nameproject == "project1") {
+                document.getElementById("nav_pro1").classList.toggle("sidebarButton");
+            }
+            if (nameproject == "project2") {
+                document.getElementById("nav_pro2").classList.toggle("sidebarButton");
+            }
+
+        }
+
+
+
+        let lastPressedgames = "nosweetlooks";
+        let lastPressedprojects = "project1";
+        function toggleGameLists(namegame, nameproject) {
+
+            if (namegame != "") {
+                cleanupButtonsGames(lastPressedgames, namegame);
+
+                document.getElementById(lastPressedgames).classList.toggle("toggleableSection");
+                document.getElementById(lastPressedgames).classList.toggle("main");
+
+                // enable selected
+                const elementToToggle = document.getElementById(namegame);
+                elementToToggle.classList.toggle("toggleableSection");
+                elementToToggle.classList.toggle("main");
+
+
+                lastPressedgames = namegame;
+            }
+
+            if (nameproject != "") {
+                cleanupButtonsProject(lastPressedprojects, nameproject);
+                
+                document.getElementById(lastPressedprojects).classList.toggle("toggleableSection");
+                document.getElementById(lastPressedprojects).classList.toggle("main");
+
+                // enable selected
+                const elementToToggle = document.getElementById(nameproject);
+                elementToToggle.classList.toggle("toggleableSection");
+                elementToToggle.classList.toggle("main");
+
+
+                lastPressedprojects = nameproject;
+            }
+
+        }
+    </script>
+    
     <!--ThreeJS renderer-->
     <canvas id="threejs_render_ID" class="threejs_style"></canvas>
 </body>
