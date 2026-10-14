@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halvardo13</title>
 
-  <script type="module" crossorigin src="/myportfolio/assets/index-8-xfpXDL.js"></script>
-  <link rel="stylesheet" crossorigin href="/myportfolio/assets/index-BwynzOR3.css">
+  <script type="module" crossorigin src="/myportfolio/assets/index-BlCHm5DM.js"></script>
+  <link rel="stylesheet" crossorigin href="/myportfolio/assets/index-CtlTa4L4.css">
 </head>
 <body id="idbody">
     <!--games-->
@@ -15,74 +15,143 @@
 
             <div class="content">
                 <header>
-                    <button class="returnButton">&lt; Return to Menu</button>
-                    
+                    <div class="closeBtnContainer">
+                        <button class="returnButton"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23FFFFFF'%3e%3cpath%20d='m313-440%20224%20224-57%2056-320-320%20320-320%2057%2056-224%20224h487v80H313Z'/%3e%3c/svg%3e" alt=""></button>
+                        <p>Return to menu</p>
+                    </div>
                     <h1>Game Development</h1>
 
-                    <a href="mailto:halvardmje@gmail.com" style="background-color: black; color: white;">Contact</a>
+                    <a href="mailto:halvardmje@gmail.com" class="closeBtnContainer">
+                        <button class="mailBtn"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23FFFFFF'%3e%3cpath%20d='M160-160q-33%200-56.5-23.5T80-240v-480q0-33%2023.5-56.5T160-800h640q33%200%2056.5%2023.5T880-720v480q0%2033-23.5%2056.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80%20320-200H160l320%20200ZM160-640v-80%20480-400Z'/%3e%3c/svg%3e" alt=""></button>
+
+                    </a>
                 </header>
+                    
 
                 <div class="sidebarAndMain">
-                    
+                    <!--Sidebar-->
                     <div class="sidebar">
+                        <div class="sidebarCatogory">
+                        <p class="pageDesc">Commercially released games:</p>
+                            <div class="sidebarButtonsContainer">
+                                <button id="nav_nsl" onclick="toggleGameLists('nosweetlooks', '')">No sweet looks</button>
+                                <button id="nav_ginnung" class="sidebarButton" onclick="toggleGameLists('ginnung', '')">Ginnung</button>
+                                <button id="nav_fusionshift" class="sidebarButton" onclick="toggleGameLists('fusionshift', '')">Fusion SHIFT</button>
+                            </div>
+                        </div>
 
-                        <p class="pageDesc">Games I have fully developed and released commercially.</p>
-
-                        <button id="nav_nsl" onclick="toggleGameLists('nosweetlooks', '')">No sweet looks</button>
-                        <button id="nav_ginnung" class="sidebarButton" onclick="toggleGameLists('ginnung', '')">Ginnung</button>
-                        <button id="nav_fusionshift" class="sidebarButton" onclick="toggleGameLists('fusionshift', '')">Fusion SHIFT</button>
-                        <p class="pageDesc">My other game development projects that are smaller in scale. </p>
-                        <button id="nav_otherGames" class="sidebarButton" onclick="toggleGameLists('otherGames', '')">Game Jams</button>
-                        <br>
+                        <div class="sidebarCatogory">
+                            <p class="pageDesc">Smaller scale games:</p>
+                            <div class="sidebarButtonsContainer">
+                                <button id="nav_otherGames" class="sidebarButton" onclick="toggleGameLists('otherGames', '')">Game Jams</button>
+                            </div>
+                            <br>
+                        </div>
                         
 
                     </div>
                     <!--no sweet looks-->
                     <div class="main" id="nosweetlooks">
-                        <img src="/myportfolio/assets/nosw-DlF6wpV5.jpg" alt="">
-                        <div class="textDesc">
+                        
+                        <!--Game container-->
+                        <div class="projectContainer">
+                            <!--hero image-->
+                            <img src="/myportfolio/assets/nosw-DlF6wpV5.jpg" alt="">
+                            <div class="textDesc">
+                                <!--Gamedata-->
+                                <div class="gameData">
+                                    <p>GameMaker</p>
+                                    <p>2025</p>
+                                    <p>Shooter</p>
+                                    <p>Rougelike</p>
+                                </div>
+                                <!--Game name-->
+                                <h3>No Sweet Looks</h3>
+                                <p>Nothing but ocean in every direction, and monsters eyeing you down everywhere you go!</p>
+                                <p style="color: rgb(80, 80, 80);">Avalible on:</p>
+                                <div class="gameLinks">
+                                    <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/No-Sweet-Looks-2894359.html" target="_blank">Nintendo Switch</a>
+                                    <a href="https://store.steampowered.com/app/3863460/No_Sweet_Looks/" target="_blank">Steam</a>
 
-                            <p style="color: rgb(80, 80, 80);">Made with GameMaker | Released 2025</p>
-                            <h3>No Sweet Looks</h3>
-                            <p>Nothing but ocean in every direction, and monsters eyeing you down everywhere you go!</p>
-                            <p style="color: rgb(80, 80, 80);">Avalible on:</p>
-                            <div class="gameLinks">
-                                <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/No-Sweet-Looks-2894359.html" target="_blank">Nintendo Switch</a>
-                                <a href="https://store.steampowered.com/app/3863460/No_Sweet_Looks/" target="_blank">Steam</a>
-
+                                </div>
                             </div>
                         </div>
+                        <!--Screenhost-->
+                        <div class="screenshotsContainer">
+                            <img src="/myportfolio/assets/screen_nsl_1-MfV8V5nN.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_2-DLprcAZV.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_3-BuTi2A_c.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_4-DegO0gq_.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_5-ClqSr1A0.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_6-DMnCdhVW.jpg" alt="" class="screenshot">
+                        </div>
+
+
+
+
                     </div>
                     <!--End-->
                     <!--Ginnung-->
                     <div class="toggleableSection" id="ginnung">
-                        <img src="/myportfolio/assets/Ginnung-Bvm3lCF1.jpeg" alt="">
-                        <div class="textDesc">
-
-                            <p style="color: rgb(80, 80, 80);">Made with GameMaker | Released 2022</p>
-                            <h3>Ginnung</h3>
-                            <p>Find your escape in this tight platformer with emphasis on speedrunning. Use the simple but versatile movement to the best of your ability! </p>
-                            <p style="color: rgb(80, 80, 80);">Avalible on:</p>
-                            <div class="gameLinks">
-                                <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Ginnung-2327674.html" target="_blank">Nintendo Switch</a>
-                                <a href="https://store.steampowered.com/app/2125270/Ginnung/" target="_blank">Steam</a>
+                        <!--Game-->
+                        <div class="projectContainer">
+                            <img src="/myportfolio/assets/Ginnung-Bvm3lCF1.jpeg" alt="">
+                            <div class="textDesc">
+                                <!--Gamedata-->
+                                <div class="gameData">
+                                    <p>GameMaker</p>
+                                    <p>2025</p>
+                                    <p>Platformer</p>
+                                </div>
+                                <h3>Ginnung</h3>
+                                <p>Find your escape in this tight platformer with emphasis on speedrunning. Use the simple but versatile movement to the best of your ability! </p>
+                                <p style="color: rgb(80, 80, 80);">Avalible on:</p>
+                                <div class="gameLinks">
+                                    <a href="https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Ginnung-2327674.html" target="_blank">Nintendo Switch</a>
+                                    <a href="https://store.steampowered.com/app/2125270/Ginnung/" target="_blank">Steam</a>
+                                </div>
                             </div>
+                        </div>
+                        <!--Screenhost-->
+                        <div class="screenshotsContainer">
+                            <img src="/myportfolio/assets/screen_nsl_1-MfV8V5nN.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_2-DLprcAZV.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_3-BuTi2A_c.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_4-DegO0gq_.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_5-ClqSr1A0.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_6-DMnCdhVW.jpg" alt="" class="screenshot">
                         </div>
                     </div>
                     <!--End-->
                     <!--Fusion shift-->
                     <div class="toggleableSection" id="fusionshift">
-                        <img src="/myportfolio/assets/fusion_shift-COF1nrzw.png" alt="">
-                        <div class="textDesc">
-
-                            <p style="color: rgb(80, 80, 80);">Made with GameMaker | Released 2020</p>
-                            <h3>Fusion SHIFT</h3>
-                            <p>Controll the minds of your foes and use their skills to your advantage!</p>
-                            <p style="color: rgb(80, 80, 80);">Avalible on:</p>
-                            <div class="gameLinks">
-                                <a href="https://store.steampowered.com/app/1254070/Fusion_SHIFT/" target="_blank">Nintendo Switch</a>
-                                <a href="https://www.nintendo.com/us/store/products/fusion-shift-switch/" target="_blank">Steam</a>
+                        <!--Game-->
+                        <div class="projectContainer">
+                            <img src="/myportfolio/assets/fusion_shift-COF1nrzw.png" alt="">
+                            <div class="textDesc">
+                                <!--Gamedata-->
+                                <div class="gameData">
+                                    <p>GameMaker</p>
+                                    <p>2025</p>
+                                    <p>Platformer</p>
+                                </div>
+                                <h3>Fusion SHIFT</h3>
+                                <p>Controll the minds of your foes and use their skills to your advantage!</p>
+                                <p style="color: rgb(80, 80, 80);">Avalible on:</p>
+                                <div class="gameLinks">
+                                    <a href="https://store.steampowered.com/app/1254070/Fusion_SHIFT/" target="_blank">Nintendo Switch</a>
+                                    <a href="https://www.nintendo.com/us/store/products/fusion-shift-switch/" target="_blank">Steam</a>
+                                </div>
                             </div>
+                        </div>
+                        <!--Screenhost-->
+                        <div class="screenshotsContainer">
+                            <img src="/myportfolio/assets/screen_nsl_1-MfV8V5nN.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_2-DLprcAZV.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_3-BuTi2A_c.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_4-DegO0gq_.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_5-ClqSr1A0.jpg" alt="" class="screenshot">
+                            <img src="/myportfolio/assets/screen_nsl_6-DMnCdhVW.jpg" alt="" class="screenshot">
                         </div>
                     </div>
                     <!--End-->
@@ -213,21 +282,33 @@
 
 
                 <header>
-                    <button class="returnButton">&lt; Return to Menu</button>
+                    <div class="closeBtnContainer">
+                        <button class="returnButton"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23FFFFFF'%3e%3cpath%20d='m313-440%20224%20224-57%2056-320-320%20320-320%2057%2056-224%20224h487v80H313Z'/%3e%3c/svg%3e" alt=""></button>
+                        <p>Return to menu</p>
+                    </div>
  
                     <h1>My Projects</h1>
 
-                    <a href="mailto:halvardmje@gmail.com" style="background-color: black; color: white;">Contact</a>
+                    <a href="mailto:halvardmje@gmail.com" class="closeBtnContainer">
+                        <button class="mailBtn"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23FFFFFF'%3e%3cpath%20d='M160-160q-33%200-56.5-23.5T80-240v-480q0-33%2023.5-56.5T160-800h640q33%200%2056.5%2023.5T880-720v480q0%2033-23.5%2056.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80%20320-200H160l320%20200ZM160-640v-80%20480-400Z'/%3e%3c/svg%3e" alt=""></button>
+
+                    </a>
                 </header>
 
                 
 
                 <div class="sidebarAndMain">
+                    <!--Sidebar-->
                     <div class="sidebar">
-                        <h2>Projects</h2>
-                        <p class="pageDesc">This Page is Work in Progress! Wokring on adding my projects in...</p>
-                        <button id="nav_pro1" onclick="toggleGameLists('', 'project1')">Project Category</button>
-                        <button id="nav_pro2" class="sidebarButton" onclick="toggleGameLists('', 'project2')">School Projects</button>
+                        <div class="sidebarCatogory">
+                            <p class="pageDesc">Projects...</p>
+                            <div class="sidebarButtonsContainer">
+                                <button id="nav_pro1" onclick="toggleGameLists('', 'project1')">Project Category</button>
+                                <button id="nav_pro2" class="sidebarButton" onclick="toggleGameLists('', 'project2')">School Projects</button>
+                            </div>
+                        </div>
+
+
                     </div>
 
 
@@ -303,11 +384,17 @@
             <div class="content">
 
                 <header>
-                    <button class="returnButton">&lt; Return to Menu</button>
+                    <div class="closeBtnContainer">
+                        <button class="returnButton"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23FFFFFF'%3e%3cpath%20d='m313-440%20224%20224-57%2056-320-320%20320-320%2057%2056-224%20224h487v80H313Z'/%3e%3c/svg%3e" alt=""></button>
+                        <p>Return to menu</p>
+                    </div>
                     
                     <h1>About Me</h1>
 
-                    <a href="mailto:halvardmje@gmail.com" style="background-color: black; color: white;">Contact</a>
+                    <a href="mailto:halvardmje@gmail.com" class="closeBtnContainer">
+                        <button class="mailBtn"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23FFFFFF'%3e%3cpath%20d='M160-160q-33%200-56.5-23.5T80-240v-480q0-33%2023.5-56.5T160-800h640q33%200%2056.5%2023.5T880-720v480q0%2033-23.5%2056.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80%20320-200H160l320%20200ZM160-640v-80%20480-400Z'/%3e%3c/svg%3e" alt=""></button>
+
+                    </a>
                 </header>
 
 
